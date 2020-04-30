@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app, support_credentials=True)
 
 # load the learner
-learn = load_learner(path='data/Goats', file='trained_model.pkl')
+learn = load_learner(path='./', file='trained_model.pkl')
 classes = learn.data.classes
 
 
