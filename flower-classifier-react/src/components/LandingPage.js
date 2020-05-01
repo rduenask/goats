@@ -17,7 +17,7 @@ class LandingPage extends React.Component {
                     <div className="col-12 center-div">
                         <button class="btn btn-primary" type="button" disabled>
                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Detecting flower
+                            Detecting goat
                         </button>
                     </div>
                 </div>
