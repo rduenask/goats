@@ -1,7 +1,7 @@
 import LandingPage from '../components/LandingPage';
 var React = require("react");
 
-class FlowerClassifier extends React.Component {
+class GoatClassifier extends React.Component {
     state = {
         currentStep: 0
     };
@@ -9,7 +9,7 @@ class FlowerClassifier extends React.Component {
         console.log('im gonna post request');
         var formData = new FormData();
         formData.append('image', this.state.img_file);
-        fetch('https://flower-classifier.onrender.com/predict', {
+        fetch('https://goats.onrender.com/predict', {
             method: 'POST',
             body: formData
         }).then(
@@ -42,4 +42,4 @@ class FlowerClassifier extends React.Component {
     }
 }
 
-export default FlowerClassifier;
+export default GoatClassifier;
