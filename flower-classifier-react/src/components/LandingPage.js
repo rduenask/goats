@@ -30,13 +30,13 @@ class LandingPage extends React.Component {
             <div className="container">
                 <div className="row">
                     <h1 className="col-12 header">
-                        Flower Classifier
+                        Goat Classifier
                     </h1>
                 </div>
                 <div className="row">
                     <div className="col-12 message">
-                        This simple flower classifier can identify the following flowers using their image:
-                        Daisy, Dandelion, Rose, Sunflower and Tulip.
+                        This simple model can identify the following goats using their image:
+                        Lebron or Jordan.
                         Upload your image below:
                     </div>
                 </div>
