@@ -13,20 +13,11 @@ class ResultPage extends React.Component {
                         Probabilities for each class:
                     </div>
                     <div className="col-12 center-div probs">
-                        Daisy: {this.props.result['probs']['daisy']}
+                        Lebron: {this.props.result['probs']['lebron']}
                     </div>
                     <div className="col-12 center-div probs">
-                        Rose: {this.props.result['probs']['rose']}
-                    </div>
-                    <div className="col-12 center-div probs">
-                        Sunflower: {this.props.result['probs']['sunflower']}
-                    </div>
-                    <div className="col-12 center-div probs">
-                        Tulip: {this.props.result['probs']['tulip']}
-                    </div>
-                    <div className="col-12 center-div probs">
-                        Dandelion: {this.props.result['probs']['dandelion']}
-                    </div>
+                        Jordan: {this.props.result['probs']['Jordan']}
+                    </div>   
                 </div>
             </div >
         );
